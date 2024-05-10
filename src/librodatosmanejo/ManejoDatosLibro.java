@@ -82,7 +82,7 @@ public class ManejoDatosLibro {
                             System.out.println("Ocurrió una excepción. "+e.getMessage());
                         }
                 }
-                /*case 4 -> {
+                case 4 -> {
                         System.out.println("Borrar Datos de Libro:\n");
 
                         System.out.print("Inserte número de isbn a borrar datos: ");
@@ -93,7 +93,7 @@ public class ManejoDatosLibro {
                         }catch(Exception e){
                             System.out.println("Ocurrió una excepción. "+e.getMessage());
                         }
-                }*/
+                }
             }
             
         mostrar_opciones();

@@ -113,9 +113,10 @@ public class LibroDatos {
                 
         }else
             throw new Exception("Se produjo un error al intentar borrar un registro. Registro inexistente");        
-        
+   
+      
     }
-    /*
+    
     public static void Borrar_DatosLibro(String isbn) throws Exception{
         
 
@@ -135,6 +136,6 @@ public class LibroDatos {
         }else
             throw new Exception("Se produjo un error al intentar borrar un registro. Registro inexistente");
 
-    }*/
+    }
     
 }
